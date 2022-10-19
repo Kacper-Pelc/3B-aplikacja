@@ -1,0 +1,74 @@
+.register {
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+
+        &-text {
+            text-align: center;
+            font-size: 80px;
+        }
+
+        &-form {
+            display: flex;
+            margin-top: 10%;
+            flex-direction: column;
+
+            &-mail {
+                width: 20em;
+                font-size: 20px;
+                text-align: center;
+                border-bottom: 1px solid black;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            &-user {
+                width: 20em;
+                font-size: 20px;
+                margin-top: 20%;
+                text-align: center;
+                border-bottom: 1px solid black;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            &-password {
+                margin-top: 20%;
+                width: 20em;
+                font-size: 20px;
+                text-align: center;
+                border-bottom: 1px solid black;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+            background-color: #b72be2;
+            border-radius: 8px;
+            border-style: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            width: 20em;
+            height: 60px;
+            text-decoration: none;
+
+            &-text {
+                text-align: center;
+            }
+        }
+
+    }
+}
