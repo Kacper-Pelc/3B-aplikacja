@@ -5,6 +5,7 @@ import Home from './Home/Home'
 import Wolontariusz from './Wolontariusz/Login'
 import Register from './Register/Register';
 import Change from './Change/Change';
+import Dashboard from './Dashboard/Dashboard';
 
 const config = () => {
     return (
@@ -15,6 +16,7 @@ const config = () => {
                     <Route path="/wolontariusz" element={<Wolontariusz />} />
                     <Route path="/rejestracja" element={<Register />} />
                     <Route path="/Changepassword" element={<Change />} />
+                    <Route path="/Panel" element={<Dashboard />} />
                 </Routes>
             </Router>
         </div>

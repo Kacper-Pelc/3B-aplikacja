@@ -1,0 +1,77 @@
+.dashboard {
+    &-container {
+        display: flex;
+        justify-content: space-around;
+
+        &-title {
+            display: flex;
+            text-align: center;
+        }
+
+        &-img {
+            width: 5%;
+        }
+
+        &-text {
+            display: inline-flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: space-between;
+
+            &-koncerty {
+                background-image: url('../../assets//koncert-28255383.jpg');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+            }
+
+            &-festiwale {
+                background-image: url('../../assets//festiwal.jpeg');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+                color: white;
+            }
+
+            &-imprezy {
+                background-image: url('../../assets//imprezy.jpg');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+                color: white;
+            }
+
+            &-karnawal {
+                background-image: url('../../assets/karnawal.png');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+                color: white;
+            }
+
+            &-spektakle {
+                background-image: url('../../assets//spektakle.jfif');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+                color: white;
+            }
+
+            &-wolontariat {
+                background-image: url('../../assets//wolontariat.jpg');
+                width: 40%;
+                height: 5em;
+                border-radius: 50px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}

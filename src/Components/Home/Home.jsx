@@ -14,9 +14,11 @@ const Home = () => {
               <button className='home-container-button'>
                   <h1>Organizator</h1>
               </button>
+              <Link to="Panel">
               <button className='home-container-button'>
                   <h1>Kontynuuj bez logowania</h1>
-            </button>
+                  </button>
+              </Link>
           </div>
       </div>
   )
